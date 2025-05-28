@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio | Agenda Cultural</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Agenda Cultural</h1>
+        <nav>
+          <ul>
+            <li><a href="inicio.html" class="active">Inicio</a></li>
+            <li><a href="agenda.html">Agenda</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="contacto.hmtl">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+    
+      <main>
+        <section>
+          <h1>Eventos Destacados</h1>
+          <div class="eventos-destacados">
+            <div class="tarjeta">
+              <span>🎵 Festival</span>
+              <h3>Música en el Parque</h3>
+              <p>Sábado 19/07 - Rosario</p>
+              <p>18:00 hs</p>
+              <a href="ver.html" class="boton">Ver más</a>
+            </div>
+            <div class="tarjeta">
+              <span>🎨 Arte</span>
+              <h3>Expo Urbana</h3>
+              <p>Domingo 20/07 - Córdoba</p>
+              <p>15:00 hs</p>
+              <a href="ver.html" class="boton">Ver más</a>
+            </div>
+            <div class="tarjeta">
+              <span>🎭 Teatro</span>
+              <h3>Impro Show</h3>
+              <p>Lunes 21/07 - Buenos Aires</p>
+              <p>21:00hs</p>
+              <a href="ver.html" class="boton">Ver más</a>
+            </div>
+          </div>
+        </section>
+    
+        <section>
+          <h2>Próximos Eventos</h2>
+          <div class="lista-eventos">
+            <div class="evento">
+              <span>🎬 Cine al aire libre</span>
+              <span>Mar del Plata - 22/07 - 20:00 hs</span>
+            </div>
+            <div class="evento">
+              <span>🎵 Jam Session</span>
+              <span>Mendoza - 23/07 - 19:30 hs</span>
+            </div>
+            <div class="evento">
+              <span>📖 Taller de lectura</span>
+              <span>La Plata - 24/07 - 17:00 hs</span>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <section class="contenedor">
+        <div class="bloque-mapa">
+          <h2>Ubicación del próximo evento</h2>
+          <div class="mapa-box">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14662.075146888767!2d-64.26372012907338!3d-31.384460948128957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329f29711642a1%3A0x4008450dac558e49!2zSmFyZMOtbiBCb3TDoW5pY28gZGUgQ8OzcmRvYmE!5e1!3m2!1ses!2sar!4v1746022821431!5m2!1ses!2sar" 
+              width="100%" 
+              height="100%" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+
+        <div class="bloque-formulario">
+            <h2>Formulario de Contacto</h2>
+            <div class="formulario-box">
+                <form action="#" method="post">
+                    <div>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre">
+                    </div>
+                    <div>
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div>
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Enviar</button>
+                    </div>
+                    </form>
+                </section>
+</body>
+</html>
